@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#conFondo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 50%;
+  height: 500px;
+}
+.violeta {
+  grid-column: 1/4;
+  background-color: blueviolet;
+}
+.blanco {
+  grid-column: 4/5;
+}
+
+/* .tercerDato {
+  align-content: space-evenly;
+} */
+.tercerDato {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.mes {
+  grid-column: 1/2;
+  grid-template-rows: 1;
+}
+.mes1 {
+  grid-column: 1/2;
+  grid-template-rows: 2;
+}
+.ano {
+  grid-column: 2/3;
+  grid-template-rows: 1;
+}
+.ano1 {
+  grid-column: 2/3;
+  grid-template-rows: 2;
+}
+.cvc {
+  grid-column: 3/4;
+  grid-template-rows: 1;
+}
+.cvc1 {
+  grid-column: 3/4;
+  grid-template-rows: 2;
+}
+input {
+  border-radius: 0.3rem;
+  margin: 5px;
+  text-align: left;
+}
+
+.confirmar {
+  background-color: rgb(13, 13, 135);
+  color: white;
+  width: 30%;
+  text-align: center;
+}
+
+/* - Linear gradient (active input border): hsl(249, 99%, 64%) to hsl(278, 94%, 30%)
+- Red (input errors): hsl(0, 100%, 66%) */

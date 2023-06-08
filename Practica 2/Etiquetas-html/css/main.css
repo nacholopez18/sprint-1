@@ -1,0 +1,118 @@
+/*
+contenido: #79FF52
+fuente: #DDE84D
+general: #FFE261
+equivalentes: #E8AC4D
+homero: #FF9059
+*/
+* {
+  margin-top: 10px;
+  padding: 0;
+  border: 0;
+}
+html {
+  font-size: 100%;
+}
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+div {
+  border: 1px solid gray;
+}
+h1,
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  letter-spacing: 4px;
+}
+h1 {
+  font-size: 3rem;
+}
+p {
+  /* font-size: 1.5rem; */
+  line-height: 1.8rem;
+  margin-top: 1rem;
+  /* border-top: 1px solid black; */
+  /* border-bottom: 5px dashed black; */
+  padding: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+a:link {
+  color: red;
+  /* background-color: navy; */
+  text-decoration: underline;
+}
+a:visited {
+  /* color: yellow; */
+  background-color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: red;
+  text-decoration: none;
+}
+a:active {
+  /* color: white; */
+  background-color: red;
+  text-decoration: none;
+}
+ol {
+  margin: 0 1.6em;
+}
+/***************
+IDENTIFICADORES
+****************/
+/* #contenido {
+  background-color: #79ff52;
+} */
+#general {
+  background-color: #ffe261;
+}
+#equivalentes {
+  background-color: #e8ac4d;
+}
+#homero {
+  background-color: #e8ac4d;
+}
+#origenes {
+  background-color: #ff9059;
+}
+#nacimiento {
+  background-color: #ff9059;
+}
+#findetexto {
+  background-color: #e8ac4d;
+  text-align: center;
+}
+/************
+C L A S E S
+*************/
+.rojo {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+/* .subrayado {
+  text-decoration: underline;
+} */
+/**************
+COMPUESTOS
+***************/
+#origenes a {
+  /* background-color: white; */
+  color: red;
+}
+/* h2.rojo {
+  text-decoration: underline;
+} */
+
+img {
+  display: block;
+  margin: auto;
+}
+dd {
+  margin-inline-start: 0px;
+}

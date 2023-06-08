@@ -1,0 +1,77 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color: skyblue;
+}
+
+.box1 {
+  background-color: red;
+  position: absolute;
+  height: calc(30% - 20px);
+  width: calc(20% - 20px);
+  top: 10px;
+  left: 10px;
+}
+.box2 {
+  background-color: orangered;
+  position: absolute;
+  top: 30%;
+  height: calc(70% - 10px);
+  width: calc(20% - 20px);
+  left: 10px;
+}
+.box3 {
+  background-color: greenyellow;
+  position: absolute;
+  left: 20%;
+  height: calc(30% - 20px);
+  width: calc(20% - 10px);
+  top: 10px;
+}
+.box4 {
+  background-color: green;
+  position: absolute;
+  left: 40%;
+  height: calc(30% - 20px);
+  width: calc(10% - 10px);
+  top: 10px;
+}
+.box5 {
+  background-color: orange;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  height: calc(70% - 10px);
+  width: calc(30% - 10px);
+}
+.rectangular1 {
+  position: absolute;
+  background-color: blue;
+  left: 50%;
+  height: calc(100% - 20px);
+  width: calc(15% - 10px);
+  top: 10px;
+}
+.rectangular2 {
+  position: absolute;
+  background-color: blueviolet;
+  left: 65%;
+  height: calc(100% - 20px);
+  width: calc(25% - 10px);
+  top: 10px;
+}
+.rectangular3 {
+  position: absolute;
+  background-color: blue;
+  left: 90%;
+  height: calc(100% - 20px);
+  width: calc(10% - 10px);
+  top: 10px;
+}

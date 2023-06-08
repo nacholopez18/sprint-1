@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: relative;
+  height: 300px;
+  width: 100vw;
+  margin: 10px 0 10px 0;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.contenido {
+  position: absolute;
+  left: 20vw;
+  height: 190px;
+  background-color: aqua;
+  width: 80vw;
+  margin-bottom: 10px;
+}
+
+.contenidoExtra {
+  position: absolute;
+  left: 20vw;
+  top: 200px;
+  background-color: blueviolet;
+  height: 100px;
+  width: 80vw;
+}
+
+.sidebar {
+  position: absolute;
+  height: 300px;
+  width: 19vw;
+  background-color: brown;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: yellow;
+}
